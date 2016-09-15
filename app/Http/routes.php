@@ -11,8 +11,8 @@
 |
 */
 
-//$app->get('/', function () use ($app) {
-//    return $app->version();
-//});
+$app->get('/', function () use ($app) {
+    return $app->version();
+});
 
-$app->get('/', 'IndexController@showIndex');
+//$app->get('/', 'IndexController@showIndex');
