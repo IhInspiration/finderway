@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#nav-block{
+  width: 100%;
+  padding: 0 50px 0 12px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+@media screen and (max-width: 768px){
+  #nav-block{
+    padding: 0;
+  }
+}
+.navbar-brand{
+  background: transparent;
+  &:hover, &:focus{
+    text-decoration: none;
+  }
+}
+.nav li a{
+  &:hover, &:focus{
+    text-decoration: none;
+    background-color: transparent;
+  }
+}
+#search-nav{
+  float: left;
+  border: 1px solid #23527C;
+  margin: 10px 0 10px 10px;
+  input, button{
+    background-color: transparent;
+    height: 30px;
+    border: none;
+    line-height: normal;
+    outline: 0;
+    color: #23527C;
+  }
+  input{
+    padding-left: 8px;
+  }
+  button{
+    padding: 0 10px;
+  }
+}

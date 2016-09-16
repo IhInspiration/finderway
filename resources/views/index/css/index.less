@@ -1,0 +1,137 @@
+body{
+  overflow: hidden;
+}
+#fullPage{
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.transition{
+  -webkit-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  transition: all 700ms ease;
+}
+.visual-block{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  display: table-cell;
+}
+#title-block{
+  height: 1000px;
+  width: 100%;
+  display: table;
+  h1{
+    margin: 0;
+    font-size: 64px;
+  }
+  p{
+    font-size: 54px;
+  }
+}
+@block-height: 500px;
+@block-padding: 50px;
+.sculpture{
+  width: 48px;
+}
+#introduction-block{
+  width: 100%;
+  display: table;
+  vertical-align: middle;
+  background-color: #89C1E0;
+  height: @block-height;
+  padding: @block-padding;
+}
+#information-block{
+  width: 100%;
+  display: table;
+  vertical-align: middle;
+  background-color: #1b6d85;
+  height: @block-height;
+  padding: @block-padding;
+  ul > li{
+    clear: both;
+    padding: 15px;
+  }
+}
+.information{
+  padding: 10px;
+  margin: 5px 0 5px 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#assess-block{
+  width: 100%;
+  height: 100%;
+  display: table;
+  table{
+    width: 100%;
+    height: 100%;
+  }
+}
+#footer-info{
+  height: 150px;
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid rgba(0,0,0,0.5);
+  a,b,p{
+    color: black;
+    font-size: 20px;
+  }
+  a{
+    cursor: pointer;
+  }
+
+}
+#up-btn{
+  position: fixed;
+  left: 15px;
+  ul{
+    list-style: none;
+    li{
+      @aLen: 13px;
+      display: block;
+      width: @aLen;
+      height: @aLen;
+      margin: 7px;
+      position: relative;
+      a{
+        display: block;
+        cursor: pointer;
+        text-decoration: none;
+        background: #D8D8D8;
+        width: @aLen;
+        height: @aLen;
+        border-radius: 50%;
+        z-index: 1;
+      }
+      &:hover a,.active{
+        background: #323A45;
+        border: 1px solid #323A45;
+        box-shadow: inset 0 0 0 3px #FFF;
+        width: (@aLen - 1) !important;
+        height: (@aLen - 1) !important;
+        z-index: 1;
+      }
+      &::before{
+        content: '';
+        width: 0;
+        border-left: 1px dotted #d8d8d8;
+        height: 5em;
+        display: inline-block;
+        position: absolute;
+        left: 6px;
+        top: -2em;
+        z-index: -1;
+      }
+    }
+  }
+}
+
