@@ -11,8 +11,7 @@
 |
 */
 
-//$app->get('/', function () use ($app) {
-//    return $app->version();
-//});
-
-$app->get('/', 'IndexController@showIndex');
+$app->get('/', 'IndexController@showIndex');//主页
+$app->get('/evaluation', 'EvaluationController@showIndex');//职业测评
+$app->get('/introduce', 'IntroduceController@showIndex');//职业介绍
+$app->get('/study', 'StudyController@showIndex');//学习提升

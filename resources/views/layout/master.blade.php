@@ -20,14 +20,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Brand</a>
+                    <a class="navbar-brand" href="#">Finderway</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li><a href="#">首页</a></li>
-                        <li><a href="#">职业测评</a></li>
-                        <li><a href="#">职业介绍</a></li>
-                        <li><a href="#">学习提升</a></li>
+                        <li><a href="/">首页</a></li>
+                        <li><a href="/evaluation">职业测评</a></li>
+                        <li><a href="/introduce">职业介绍</a></li>
+                        <li><a href="/study">学习提升</a></li>
                     </ul>
                     <form class="navbar-left" role="search">
                         <div id="search-nav" class="hidden-xs">
