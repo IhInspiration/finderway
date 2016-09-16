@@ -13,6 +13,6 @@ class IndexController extends Controller
 {
 
     public function showIndex(){
-        return "hello";
+        return view('index.index');
     }
 }
