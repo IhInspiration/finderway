@@ -102,7 +102,7 @@ addEvent(reClass("next-pages")[0], 'click', function(){
         });
     }
 });
-
+createChart([20, 50, 80, 60, 80, 20]);
 function createChart(data){
     var myChart = echarts.init(document.getElementById('evaluation_results_img'));
     //雷达图基础配置项
