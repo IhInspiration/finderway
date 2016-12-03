@@ -1,0 +1,143 @@
+.pre(@style, @value){
+  -webkit-@{style}: @value;
+  -moz-@{style}: @value;
+  -ms-@{style}: @value;
+  -o-@{style}: @value;
+  @{style}: @value;
+}
+.animation(@value){
+  .pre(animation, @value);
+}
+.transition(@value){
+  .pre(transition, @value);
+}
+.transform(@value){
+  .pre(tranform, @value);
+}
+//.keyframes(@name){
+//  @-webkit-keyframes @name{
+//    .frames(-webkit-)
+//  }
+//  @-moz-keyframes @name{
+//    .frames(-moz-)
+//  }
+//  @-ms-keyframes @name{
+//    .frames(-ms-)
+//  }
+//  @-o-keyframes @name{
+//    .frames(-o-)
+//  }
+//  @keyframes @name{
+//    .frames()
+//  }
+//}
+#evaluation_main{
+  width: 100%;
+  padding-bottom: 80px;
+  padding-top: 100px;
+  overflow: hidden;
+}
+.evaluation_sidebar{
+  ul{
+    width: 100%;
+    background-color: #fbfbfb;
+    li{
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      font-size: 20px;
+      &:hover{
+        cursor: pointer;
+        background-color: #ebebeb;
+      }
+      a{
+        color: #000;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+.evaluation_introduce{
+  padding-left: 30px;
+  p{
+    text-indent: 2em;
+  }
+  button{
+    margin: 20px 0;
+  }
+}
+.evaluation_question{
+  padding-left: 30px;
+}
+.evaluation_question_pages{
+  height: 20px;
+  overflow: hidden;
+  li{
+    float: left;
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    border-right: 1px solid #d8d7d7;
+    background-color: #ebebeb;
+    text-align: center;
+    cursor: pointer;
+    &.finish{
+      background-color: #ff6400;
+      border-right: 1px solid #f79353;
+      color: white;
+    }
+    &:first-child{
+      border-top-left-radius: 13px;
+      border-bottom-left-radius: 13px;
+      background-color: #ff6400;
+    }
+    &:last-child{
+      border-top-right-radius: 13px;
+      border-bottom-right-radius: 13px;
+    }
+  }
+}
+.evaluation_question_select{
+  margin: 30px 0 20px 0;
+  li{
+    font-size: 20px;
+    span{
+      height: 40px;
+      line-height: 40px;
+      display: block;
+    }
+    button{
+      margin: 5px 20px 10px 0;
+      width: 100px;
+      height: 30px;
+      outline: 0;
+    }
+  }
+}
+.next-pages{
+  width: 100px;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #fcfcfc;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -1px 0 rgba(0, 0, 0, .1);
+  text-align: center;
+  transform: rotate(0);
+  a{
+    cursor: pointer;
+    color: #000;
+    &:hover{
+      color: #000;
+    }
+  }
+  p{
+    margin: 0;
+  }
+}
