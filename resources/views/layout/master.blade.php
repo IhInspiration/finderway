@@ -62,11 +62,19 @@
         This is the main;
     @show
     @section('footer')
-        This is the footer.
+        <footer>
+            <div>
+                <a>关于我们</a>
+                <b>|</b>
+                <a>意见反馈</a>
+                <p>备案号</p>
+            </div>
+        </footer>
     @show
     @section('script')
         <script type="text/javascript" src="/jquery/jquery-1.12.3.min.js"></script>
         <script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="/views/layout/js/public.js"></script>
     @show
 </body>
 </html>
