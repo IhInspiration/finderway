@@ -1,4 +1,11 @@
+/**
+ * Create by JackWang
+ * 霍兰德测评
+ */
+
 //判断用户目前测评进行状态
+//-1为未测评状态，0未正在测评（或测评中断状态），1为已经完成测评
+//此处你如果想改成url形式也可以，然后我再改
 ajax({
     url: '/views/test/test1.json',
     success: function(data){
@@ -37,6 +44,7 @@ ajax({
     }
 });
 
+//测评展示
 function evaluationDisplay(){
     //获取霍兰德测评题目
     ajax({
