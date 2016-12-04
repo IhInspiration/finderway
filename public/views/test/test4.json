@@ -1,0 +1,40 @@
+{
+  "curPages": 13,
+  "answers": [
+    1, 0, 1, 1, 0,
+    0, 1, 1, 0, 1,
+    1, 0, 1, 1, 0,
+    0, 0, 0, 1, 1,
+    1, 1, 0, 0, 0,
+    1, 1, 0, 0, 1,
+    1, 0, 1, 0, 1,
+    1, 1, 0, 0, 0,
+    1, 1, 0, 1, 1,
+    1, 1, 0, 0, 0,
+    1, 1, 0, 1, 0,
+    1, 1, 0, 0, 1
+  ],
+  "interests": [20, 50, 80, 60, 80, 20],
+  "results": "此处放分析结果",
+  "careers": [{
+    "name": "前端开发工程师",
+    "url": "http://www.baidu.com"
+  },
+    {
+      "name": "php开发工程师",
+      "url": "http://www.baidu.com"
+    },
+    {
+      "name": "测试工程师",
+      "url": "http://www.baidu.com"
+    },
+    {
+      "name": "弹药爆破",
+      "url": "http://www.baidu.com"
+    },
+    {
+      "name": "more...",
+      "url": "http://www.sina.com"
+    }
+  ]
+}

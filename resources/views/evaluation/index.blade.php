@@ -11,77 +11,69 @@
     <div id="evaluation_main">
         <div class="evaluation_sidebar col-sm-3">
             <ul>
-                <li><a data-type="1">霍兰德测评</a></li>
-                <li><a data-type="2">MBTI测评</a></li>
+                <li><a data-type="holland">霍兰德测评</a></li>
+                <li><a data-type="mbti">MBTI测评</a></li>
             </ul>
         </div>
-        <div class="evaluation_introduce col-sm-7" style="display: none;">
-            <h2>霍兰德测评简介</h2>
-            <p>
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-            </p>
-            <p>
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-            </p>
-            <p>
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-            </p>
-            <p>
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-            </p>
-            <p>
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-                Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
-            </p>
-            <button type="button" class="btn btn-info start_evaluation">开始测评</button>
-        </div>
-        <div class="evaluation_question col-sm-7" style="display: none;">
-            <ul class="evaluation_question_pages"></ul>
-            <ul class="evaluation_question_select"></ul>
-            <hr/>
-            <button class="btn btn-info next-pages" curPages="1">下一页</button>
-        </div>
-        <div class="evaluation_result col-sm-9" style="display: block;">
-            <div class="container">
-                <div class="col-sm-7">
-                    <h2>测评结果</h2>
-                    <p>你的性格是一会告诉你你的性格是一会告诉你你的性格是一会告诉你</p>
-                    <p>你的性格是一会告诉你你的性格是一会告诉你你的性格是一会告诉你</p>
-                    <p>你的性格是一会告诉你你的性格是一会告诉你你的性格是一会告诉你</p>
-                    <p>你的性格是一会告诉你你的性格是一会告诉你你的性格是一会告诉你</p>
-                    <p>你的性格是一会告诉你你的性格是一会告诉你你的性格是一会告诉你</p>
-                </div>
-                <div class="col-sm-5">
-                    <div id="evaluation_results_img" style="width: 100%;height: 300px;"></div>
-                </div>
-                <div class="col-sm-12">
-                    <h3>推荐职业：</h3>
-                    <ul>
-                        <li><a href="#">前端工程师</a></li>
-                        <li><a href="#">测试工程师</a></li>
-                        <li><a href="#">弹药爆破师</a></li>
-                        <li><a href="#">php开发工程师</a></li>
-                        <li><a href="#">more...</a></li>
-                    </ul>
+        <div id="holland">
+            <div class="evaluation_introduce col-sm-7" style="display: none;">
+                <h2>霍兰德测评简介</h2>
+                <p>
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                </p>
+                <p>
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                </p>
+                <p>
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                </p>
+                <p>
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                </p>
+                <p>
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                    Finderway平台为你提供优质的测评服务，并利用测评向你推荐职业
+                </p>
+                <button type="button" class="btn btn-info start_evaluation">开始测评</button>
+            </div>
+            <div class="evaluation_question col-sm-7" style="display: none;">
+                <ul class="evaluation_question_pages"></ul>
+                <ul class="evaluation_question_select"></ul>
+                <hr/>
+                <button class="btn btn-info next-pages" curPages="1">下一页</button>
+            </div>
+            <div class="evaluation_result col-sm-9" style="display: none;">
+                <div class="container">
+                    <div class="col-sm-7">
+                        <h2>测评结果</h2>
+                        <p class="evaluation_result_content">正在获取。。。</p>
+                    </div>
+                    <div class="col-sm-5">
+                        <div id="evaluation_results_img" style="width: 100%;height: 300px;"></div>
+                    </div>
+                    <div class="col-sm-12">
+                        <h3>推荐职业：</h3>
+                        <ul class="commend_career"></ul>
+                    </div>
                 </div>
             </div>
         </div>
